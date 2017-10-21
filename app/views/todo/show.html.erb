@@ -1,8 +1,15 @@
-<h2 style=" border:2px solid Tomato;">
-     <input type="checkbox" name=""/> 
+<h1 style=" border:2px solid Tomato;">
+     
     To Do List
-    </h2>
+    </h1>
+    <h2>
+    <input type="checkbox" name=""/> 
+<%= @todo_description %>
+<span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo_pomodoro_estimate %> Pomodoros</span>
+</h2>
+<h3>Todo #<%= params[:id] %></h3>
+<a href="#">Edit</a>
+<a href="#">Delete</a>
+<a href="https://todo-app-back-end-mbolden3.c9users.io/todo/index/">Go Back...
+</a>
 
-    <a href="#">Edit</a>
-    <a href="#">Delete</a>
-    <a href="index.html">Go Back...</a>
